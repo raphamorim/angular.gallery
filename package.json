@@ -1,0 +1,15 @@
+{
+  "name": "Angularjs.gallery",
+  "version": "0.1.0",
+  "description": "A angularjs apps gallery for modern web",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphamorim/angularjs-best-examples.git"
+  },
+  "author": "Raphael Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphamorim/angularjs-best-examples/issues"
+  },
+  "homepage": "https://github.com/raphamorim/angularjs-best-examples"
+}
