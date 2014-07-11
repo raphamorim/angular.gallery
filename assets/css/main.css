@@ -11,6 +11,10 @@ body {
   background: #34495e;
 }
 
+hr {
+  border: 1px dashed #777;
+}
+
 /* Navigation */
 
 nav {
@@ -78,6 +82,7 @@ section.gallery {
   color: #FFF;
   padding-top: 80px;
 }
+section:nth-child(2) { height: 880px; }
 section.active {}
 section>p { color:#444; font-size: 17px; padding: 12px 130px; }
 section:first-child>p>span { color: #FFF; font-size:20px; padding: 10px; }
