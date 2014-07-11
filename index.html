@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gallery">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS Gallery</title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="A angularjs apps gallery for modern web." />
+
+    <!-- Facebook -->
+    <meta property="og:title" content="AngularJS Gallery"/>
+    <meta property="og:type" content="site"/>
+    <meta property="og:image" content="assets/images/fb-share.jpg"/>
+    <meta property="og:site_name" content="Angularjs.gallery"/>
+    <meta property="og:description" content="A angularjs apps gallery for modern web"/>
+    <meta property="fb:admins" content="100001780434348" />
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="#1">About</a></li>
+    <li><a href="#2">Contributting</a></li>
+    <li><a href="#3">Gallery</a></li>
+    <li><a href="#4">More Useful</a></li>
+    <li><a href="#5">Newest</a></li>
+  </ul>
+</nav>
+
+<div class="sections">
+  <section id="1">
+      <h1><img src="assets/images/logo.svg" alt="Angular logo" id="logo-img">.gallery</h1>
+      <h2>A angularjs apps gallery for modern web</h2>
+      <p></p>
+      <p></p>
+      <p><span class="green">This project is an initiative to attract good projects using this technology.</span></p>
+      <p></p>
+      <p><span class="orange">With the goal of cataloging projects and applications can then rate each app individually.</span></p>
+  </section>
+
+  <section id="2">
+      <h1>Contributting</h1>
+      <p><h2>Submit your own example</h2></p>
+      <p>You've created or got a great idea for a custom angularjs app? Awesome!</p>
+      <p>When you're ready to go, just fork this project and put your app in gallery folder, after this send us a pull request. The app will appear on this site for others to play and use!</p>
+      <p></p>
+      <p><a class="btn-github" href="https://github.com/raphamorim/angularjs.gallery">
+          <img src="http://www.astropy.org/images/github-mark.png">Fork this Project!</a></p>
+  </section>
+
+  <section id="3" class="gallery">
+      <h1>Gallery</h1>
+      <p><strong>Inline-Editor</strong> by <strong>raphamorim</strong></p>
+      <p><iframe src="gallery/inline-editor/" class="gallery-view" scrolling="no" frameborder="0"></iframe></p>
+      <p><a href="#3" class="btn-load-more">See all gallery</a></p>
+        <!-- full screen and see project  -->
+  </section>
+  <section id="4"><h1>More Useful</h1></section>
+  <section id="5"><h1>Newest</h1></section>
+</div>
+
+<footer>
+    <a href="https://github.com/raphamorim/angularjs.gallery">AngularJs.gallery</a> has been made with <span class='love'>♥</span> by
+    <a href='http://github.com/raphamorim' target="_blank" />Raphamorim</a> and awesome
+    <a href="https://github.com/raphamorim/angularjs.gallery/contributors">contributors</a>!
+</footer>
+
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Main -->
+<script src="assets/js/main.js"></script>
+<!-- Angular -->
+<script src='assets/js/angular/angular.js'></script>
+<script src="assets/js/angular/angular-route.js"></script>
+<script src='assets/js/app.js'></script>
+<script src='assets/js/services.js'></script>
+<script src='assets/js/controllers.js'></script>
+<script src='assets/js/filters.js'></script>
+<script src='assets/js/directives.js'></script>
+</body>
+</html>
