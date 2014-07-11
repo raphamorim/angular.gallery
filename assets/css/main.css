@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #34495e;
+}
+
+/* Navigation */
+
+nav {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  background: #34495e;
+}
+
+nav ul {
+  padding: 20px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+nav ul li a:hover {
+  color: #ed6d78;
+}
+a.active {
+      border-bottom: 2px solid #ecf0f1;
+}
+
+/* Headings */
+
+h1 {
+  font-size: 5rem;
+  color: #34495E;
+}
+
+/* Sections */
+
+section {
+  width: 100%;
+  padding: 80px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  height: 650px;
+  text-align: center;
+}
+section:nth-child(even) {
+  background: #ecf0f1;
+}
+section:nth-child(odd) {
+  background: #bdc3c7;
+}
+section.gallery {
+  height: 750px;
+}
+.sections section:first-child {
+  height: 570px;
+  background: #0CA7D3;
+  color: #FFF;
+  padding-top: 80px;
+}
+section.active {}
+section>p { color:#444; font-size: 17px; padding: 12px 130px; }
+section:first-child>p>span { color: #FFF; font-size:20px; padding: 10px; }
+section:first-child>p>span.orange { background: #F49C14; }
+section:first-child>p>span.green { background: #2FCC71; }
+
+footer {
+  height: 50px;
+  text-align: center;
+  padding: 8px;
+  color: #FFF;
+  background: #34495e;
+}
+footer>a { color: lightblue; font-weight: bold; text-decoration: none; }
+
+#logo-img {
+    width: 450px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+.btn-github {
+overflow: visible;
+display: inline-block;
+padding: 1em 2em;
+font: 20px/normal helvetica;
+color: #333;
+white-space: nowrap;
+cursor: pointer;
+outline: none;
+text-decoration: none;
+background-color: #D5D5D5;
+font-weight: bold;
+transition: all 200ms ease;
+cursor: pointer;
+}
+.btn-github>img { vertical-align: middle; margin-right: 15px; height: 30px; width: 30px; }
+.btn-github:hover { background: #bcbcbc; }
+
+.btn-load-more {
+    overflow: visible;
+    display: inline-block;
+    padding: 1em 2em;
+    font: 20px/normal helvetica;
+    text-decoration: none;
+    color: #FFF;
+    background: #E23237;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+.btn-load-more:hover { background: #B52E31; }
+
+.gallery-view {
+    width: 100%;
+    height: 340px;
+    border: 1.5px solid #999;
+    background: #F8F8F8;
+}
+
+iframe { overflow:hidden; } /* For any browsers */
+
+.love {
+  display: inline-block;
+  position: relative;
+  top: .2em;
+  font-size: 1.4em;
+  color: #E23237;
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  transform: scale(.9);
+  -webkit-animation: love .5s infinite linear alternate-reverse;
+  -moz-animation: love .5s infinite linear alternate-reverse;
+  animation: love .5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes love {
+  to {-webkit-transform: scale(1.2);}
+}
+@-moz-keyframes love {
+  to {-moz-transform: scale(1.2);}
+}
+@keyframes love {
+  to {transform: scale(1.2);}
+}
