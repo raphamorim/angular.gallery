@@ -16,7 +16,7 @@
     <meta property="og:description" content="A angularjs apps gallery for modern web"/>
     <meta property="fb:admins" content="100001780434348" />
 </head>
-<body>
+<body ng-controller="Main">
 <nav>
   <ul>
     <li><a href="#1">About</a></li>
@@ -55,10 +55,10 @@
 
   <section id="3" class="gallery">
       <h1>Gallery</h1>
-      <p><strong>Inline-Editor</strong> by <strong>raphamorim</strong></p>
-      <p><iframe src="http://raphamorim.com/angularjs.gallery/assets/example/inline-editor/" class="gallery-view" scrolling="no" frameborder="0"></iframe></p>
-      <p><a href="#3" class="btn-load-more">See all gallery</a></p>
-        <!-- full screen and see project  -->
+      <p><div main-info></div></p>
+      <p><iframe src="{{mainApp.url}}" class="gallery-view" scrolling="no" frameborder="0"></iframe></p>
+      <p><a href="{{mainApp.url}}" target="_blank" class="btn-github orange">Open</a>
+         <a href="{{mainApp.repository}}" class="btn-github blue">GitHub</a>&nbsp; <strong>or</strong> &nbsp;<a href="#3" class="btn-load-more">See all gallery</a></p>
   </section>
 
   <section id="4">
