@@ -3,8 +3,8 @@
 		{
 			"name": "Inline Editor",
 			"author": "raphamorim",
-			"repository": "https://github.com/raphamorim/angularjs.gallery",
-			"url": "http://raphamorim.com/angularjs.gallery/assets/example/inline-editor/"
+			"repository": "https://github.com/raphamorim/angular.gallery",
+			"url": "http://raphamorim.com/angular.gallery/assets/example/inline-editor/"
 		}
 	]
 }
