@@ -121,6 +121,11 @@ cursor: pointer;
 }
 .btn-github>img { vertical-align: middle; margin-right: 15px; height: 30px; width: 30px; }
 .btn-github:hover { background: #bcbcbc; }
+.btn-github.blue { background: #1BBC9D; color: #FFF; font-weight: normal; }
+.btn-github.blue:hover { background: #16A086; }
+
+.btn-github.orange { background: #F49C14; color: #FFF; font-weight: normal; }
+.btn-github.orange:hover {background: #E77E23; }
 
 .btn-load-more {
     overflow: visible;
