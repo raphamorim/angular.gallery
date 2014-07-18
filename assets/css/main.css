@@ -172,3 +172,11 @@ iframe { overflow:hidden; } /* For any browsers */
 @keyframes love {
   to {transform: scale(1.2);}
 }
+
+.list-item {
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.3);
+    height: 50px;
+    background: #F8F8F8;
+    cursor: pointer;
+}

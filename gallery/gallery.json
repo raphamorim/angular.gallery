@@ -5,6 +5,12 @@
 			"author": "raphamorim",
 			"repository": "https://github.com/raphamorim/angular.gallery",
 			"url": "http://raphamorim.com/angular.gallery/assets/example/inline-editor/"
+		},
+		{
+			"name": "Drag and Drop",
+			"author": "raphamorim",
+			"repository": "https://github.com/raphamorim/angular.gallery",
+			"url": "http://raphamorim.com/angular.gallery/assets/example/restaurant-menu/"
 		}
 	]
 }
