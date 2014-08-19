@@ -9,8 +9,8 @@
 		{
 			"name": "Drag and Drop",
 			"author": "raphamorim",
-			"repository": "https://github.com/raphamorim/angular.gallery",
-			"url": "http://raphamorim.com/angular.gallery/assets/example/restaurant-menu/"
+			"repository": "https://github.com/raphamorim/angular-drag-n-drop",
+			"url": "http://raphamorim.com/angular-drag-n-drop/"
 		}
 	]
 }
